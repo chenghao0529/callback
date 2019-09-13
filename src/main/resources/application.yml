@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:mysql://liaomutou:3306/liaomutou
+    username: root
+    password: 3F4a9b778310
+    driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+
+server:
+  port: 8081
